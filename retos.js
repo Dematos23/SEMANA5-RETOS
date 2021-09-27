@@ -17,7 +17,7 @@ function calcularGanancia (litros){
 
 let ganancia = calcularGanancia(litrosProducidos);
 
-console.log(ganancia);
+alert(`Su ganancia es de ${ganancia}`);
 
 
 // RETO 2
