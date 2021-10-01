@@ -16,7 +16,7 @@ function calcularGanancia (litros){
 }
 
 let ganancia = calcularGanancia(litrosProducidos);
-
+console.log(ganancia);
 alert(`Su ganancia es de ${ganancia}`);
 
 
@@ -71,6 +71,7 @@ function cuenta (tipo, medioDePago, cantidad){
 let total = cuenta(eleccionTipoDeHamburguesa, eleccionMedioDePago, eleccionCantidad);
 
 console.log(total);
+alert(`Su cuenta total es de $${total}`);
 
 // RETO 3
 
@@ -103,6 +104,7 @@ function precioCita (cita){
 
 let precio = precioCita(numCita);
 console.log(`El precio de su cita es $${precio}`);
+alert(`El precio de su cita es $${precio}`);
 
 function costoTratamiento (cita){
     if(cita <= 3){
@@ -126,3 +128,4 @@ function costoTratamiento (cita){
 
 let tratamiento = costoTratamiento(numCita);
 console.log(`El costo de su tratamiento es $${tratamiento}`);
+alert(`El costo de su tratamiento es $${tratamiento}`);
